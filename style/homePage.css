@@ -124,14 +124,14 @@ header{
     height: 350px;
 }
 #DiscoverScubaDiving{
-    background: url(./../img/體驗潛水.jpg);
+    background: url(./../img/體驗潛水.jpg) center center;
     background-size: cover;
 }
 #OpenWaterSourse{
-    background: url(./../img/OpenWater.jpg);
+    background: url(./../img/OpenWater.jpg) center center;
     background-size: cover;
 }
 #FunDive{
-    background: url(./../img/FunDive.jpg);
+    background: url(./../img/FunDive.jpg) center center;
     background-size: cover;
 }

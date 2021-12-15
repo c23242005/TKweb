@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif, "微軟正黑體";
+}
+.Welcomepage_Background{
+	height: 100vh;
+	width: 100%;
+    background: radial-gradient(circle,rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+	background-size: cover; /*滿版效果*/
+	background-attachment:fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+.Welcome_Word{
+	position: relative;
+	text-align: center;
+	color:#FFF ;
+}
+.Welcome_Word h1{
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+.Welcome_Word p{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+#vipBtn{
+	margin: 0 auto;
+	width: 100px;
+	display: block;	/*看到a先設這個讓他變成區塊元素*/
+	background: rgb(61, 155, 236);
+	color:#fff;
+	padding: 12px 50px;
+	text-decoration: none;
+	margin-top: 50px;
+	border-radius: 50px; /*圓角*/
+	box-shadow: 5px 5px 17px #666; /*陰影 第三個元素是陰影*/
+	font-weight: bold;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif, "微軟正黑體";
+}
+header{
+    padding: 10px;
+}
+.Logo_and_Menu{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#LogoName{
+    width: 30%;
+    color: #0274be;
+    text-align: left;
+}
+#LogoName a{
+    text-decoration: none;
+}
+#LogoName a:visited{
+    color: #0274be;
+}
+#Menu{
+    display: flex;
+}
+#Menu ul{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	list-style-type:none; /*li才不會有點點*/
+}
+#Menu li a{
+	color: black;
+	text-decoration: none; /*超連結的底線不要顯示出來*/
+	font-size: 20px;
+	padding: 10px;
+	font-weight: bold;
+}
+#Menu li a:hover{ /*hover鼠標滑入 設超連結一定要記得用這個*/
+	color: #0274be; /*游標滑過之後字會變色*/
+	transition: 0.5s; /*漸變效果*/
+}
+.Main_Background_Image{
+    background: url(./../img/TK招牌.jpg) no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+    width: 100%;
+    margin: 0 auto;
+}
+.IntroduceTKDiving{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.IntroduceTKDiving h2{
+    color: black;
+	font-size: 34px;
+}
+.sLine{
+	width: 150px;
+	height: 3px;
+	background-color: black;
+	margin: 10px auto; /*順序上右下左 只寫兩個第一個上下第二個左右*/
+}
+.IntroduceTKDiving p{
+    line-height: 2;
+    color: black;
+}
+.LifePictureBox{
+    width: 90%;
+    display: flex;
+    margin: 10px auto;
+    
+}
+.TKLifePicture{
+    width: 33%;
+    margin: 0 10px;
+}
+.TKLifePicture img{
+    width: 100%;
+    
+}
+
+
+
+
+
+
+.DivingCourse_Background{
+    background: #F3F3F3;  
+}
+#DivingWord{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}

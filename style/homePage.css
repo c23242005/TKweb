@@ -140,3 +140,40 @@ header{
     background: url(./../img/FunDive.jpg) center center;
     background-size: cover;
 }
+
+footer{
+    padding: 20px;
+}
+
+/* footer店家地址設置 */
+.StoreLocation{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    font-size: 13px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+/* footer店家社群軟體 */
+.SocialSoftware{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: end;
+}
+.SocialIcon{
+    width: 35px;
+    height: 35px;
+}
+#FBicon{
+    background: url(./../img/FBicon.png) center center;
+    background-size: cover;
+}
+#IGicon{
+    background: url(./../img/IGicon.png) center center;
+    background-size: cover;
+}
+#Lineicon{
+    background: url(./../img/Lineicon.png) center center;
+    background-size: cover;
+}

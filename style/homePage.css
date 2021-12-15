@@ -8,7 +8,7 @@ body {
 header{
     padding: 10px;
 }
-
+/*上層選單及LOGO*/
 .Logo_and_Menu{
     width: 90%;
     display: flex;
@@ -26,6 +26,8 @@ header{
 #LogoName a:visited{
     color: #0274be;
 }
+
+/* 選單樣式設計 */
 #Menu{
     display: flex;
 }
@@ -46,6 +48,8 @@ header{
 	color: #0274be; /*游標滑過之後字會變色*/
 	transition: 0.5s; /*漸變效果*/
 }
+
+/* 主頁的大圖主視覺背景 */
 .Main_Background_Image{
     background: url(./../img/TK招牌.jpg) no-repeat center center;
     background-size: cover;
@@ -53,6 +57,8 @@ header{
     width: 100%;
     margin: 0 auto;
 }
+
+/* 台客潛水基本介紹區域 */
 .IntroduceTKDiving{
     width: 90%;
     text-align: center;
@@ -73,6 +79,8 @@ header{
     line-height: 2;
     color: black;
 }
+
+/* 台客生活剪影 */
 .LifePictureBox{
     width: 90%;
     display: flex;
@@ -86,34 +94,31 @@ header{
     width: 100%;    
 }
 
-
-
-
-
-
+/* 潛水種類區域 背景為淺灰色 */
 .DivingCourse_Background{
     background: #F3F3F3;
     padding: 20px 0;  
+}
+.DivingCourse_Background h2{
+    color: black;
+	font-size: 34px;
+    text-align: center;
 }
 #DivingWord{
     width: 90%;
     margin: 0 auto;
     text-align: center;
-
-}
-.DivingCourse_Background h2{
-    color: black;
-	font-size: 34px;
 }
 
 
-.DivingIntroduceWord{
+/* 潛水趣下方課程圖片連結設定 */
+.DivingIntroduceBox{
     width: 90%;
     display: flex;
     margin: 15px auto;  
     align-items: center;  
 }
-.DivingIntroduceWord h3{
+.DivingIntroduceBox h3{
     font-size: 30px;
     margin-top: 10px;
 }

@@ -8,6 +8,7 @@ body {
 header{
     padding: 10px;
 }
+
 .Logo_and_Menu{
     width: 90%;
     display: flex;
@@ -56,7 +57,7 @@ header{
     width: 90%;
     text-align: center;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .IntroduceTKDiving h2{
     color: black;
@@ -75,16 +76,14 @@ header{
 .LifePictureBox{
     width: 90%;
     display: flex;
-    margin: 10px auto;
-    
+    margin: 10px auto;    
 }
 .TKLifePicture{
     width: 33%;
     margin: 0 10px;
 }
 .TKLifePicture img{
-    width: 100%;
-    
+    width: 100%;    
 }
 
 
@@ -93,11 +92,46 @@ header{
 
 
 .DivingCourse_Background{
-    background: #F3F3F3;  
+    background: #F3F3F3;
+    padding: 20px 0;  
 }
 #DivingWord{
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding: 10px;
+
+}
+.DivingCourse_Background h2{
+    color: black;
+	font-size: 34px;
+}
+
+
+.DivingIntroduceWord{
+    width: 90%;
+    display: flex;
+    margin: 15px auto;  
+    align-items: center;  
+}
+.DivingIntroduceWord h3{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.TypesOfDiving{
+    width: 33%;
+    margin: 0 10px;
+    color: white;
+    height: 350px;
+}
+#DiscoverScubaDiving{
+    background: url(./../img/體驗潛水.jpg);
+    background-size: cover;
+}
+#OpenWaterSourse{
+    background: url(./../img/OpenWater.jpg);
+    background-size: cover;
+}
+#FunDive{
+    background: url(./../img/FunDive.jpg);
+    background-size: cover;
 }

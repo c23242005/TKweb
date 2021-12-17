@@ -7,6 +7,10 @@ body {
 }
 header{
     padding: 10px;
+    background: #F3F3F3;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
 }
 /*上層選單及LOGO*/
 .Logo_and_Menu{
@@ -17,14 +21,14 @@ header{
 }
 #LogoName{
     width: 30%;
-    color: #0274be;
+    color: black;
     text-align: left;
 }
 #LogoName a{
     text-decoration: none;
 }
 #LogoName a:visited{
-    color: #0274be;
+    color: black;
 }
 
 /* 選單樣式設計 */
@@ -51,33 +55,37 @@ header{
 
 /* 主頁的大圖主視覺背景 */
 .Main_Background_Image{
-    background: url(./../img/TK招牌.jpg) no-repeat center center;
+    background: linear-gradient(to bottom, rgba(30, 75, 115), rgb(181, 219, 253));
     background-size: cover;
-    height: 92vh;
+    height: 100vh;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 /* 台客潛水基本介紹區域 */
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
 .IntroduceTKDiving{
     width: 90%;
-    text-align: center;
-    margin: 0 auto;
+    align-items: start;
+    margin: 0 10px;
     padding: 20px 0;
 }
-.IntroduceTKDiving h2{
-    color: black;
-	font-size: 34px;
+.IntroduceTKDiving h1{
+    color: #FFD306	;
+	font-size: 50px;    
 }
-.sLine{
-	width: 150px;
-	height: 3px;
-	background-color: black;
-	margin: 10px auto; /*順序上右下左 只寫兩個第一個上下第二個左右*/
-}
+
+
 .IntroduceTKDiving p{
     line-height: 2;
     color: black;
+    font-size: 20px;
 }
 
 /* 台客生活剪影 */

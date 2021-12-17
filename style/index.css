@@ -69,6 +69,7 @@ header{
     width: 90%;
     margin: 0 auto;
     display: flex;
+    padding-top: 30px;
 }
 .IntroduceTKDiving{
     width: 90%;
@@ -91,15 +92,20 @@ header{
 /* 台客生活剪影 */
 .LifePictureBox{
     width: 90%;
+    margin: 0 auto;   
     display: flex;
-    margin: 10px auto;    
+    align-items: center; 
+}
+.Slider{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
 }
 .TKLifePicture{
-    width: 33%;
-    margin: 0 10px;
+    width: 100%;
 }
 .TKLifePicture img{
-    width: 100%;    
+    width: 100%;  
 }
 
 /* 潛水種類區域 背景為淺灰色 */

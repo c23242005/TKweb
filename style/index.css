@@ -3,8 +3,9 @@
 	padding: 0;
 }
 
+
 body {
-	font-family: 'Baloo Bhaijaan 2', cursive, Helvetica, sans-serif, "微軟正黑體";
+	font-family:  "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
 }
 header{
     padding: 10px;
@@ -56,13 +57,20 @@ header{
 
 /* 主頁的大圖主視覺背景 */
 .Main_Background_Image{
-    background: linear-gradient(to bottom, rgba(30, 75, 115), rgb(181, 219, 253));
+    background: url(../img/體驗潛水.jpg) center center no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
+}
+.mask{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .5;
 }
 
 /* 台客潛水基本介紹區域 */
@@ -73,22 +81,22 @@ header{
     padding-top: 30px;
 }
 .IntroduceTKDiving{
+    position: relative;
     width: 90%;
-    align-items: start;
-    margin: 0 10px;
+    text-align: center;
+    margin: 0 auto;
     padding: 20px 0;
 }
 .IntroduceTKDiving h1{
-    color: #FFD306	;
-	font-size: 50px;    
+    color: white;   
 }
-
-
 .IntroduceTKDiving p{
     line-height: 2;
-    color: black;
+    color: white;
     font-size: 20px;
+    font-weight: bold;
 }
+
 
 /* 台客生活剪影 */
 .LifePictureBox{
@@ -132,7 +140,7 @@ header{
 	width: 150px;
 	height: 3px;
 	background-color: black;
-	margin: 10px auto; /*順序上右下左 只寫兩個第一個上下第二個左右*/
+	margin: 20px auto; /*順序上右下左 只寫兩個第一個上下第二個左右*/
 }
 
 

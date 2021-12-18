@@ -9,7 +9,7 @@ body {
 }
 header{
     padding: 10px;
-    background: #F3F3F3;
+    background: white;
     z-index: 2;
     position: fixed;
     width: 100%;
@@ -23,14 +23,14 @@ header{
 }
 #LogoName{
     width: 30%;
-    color: black;
+    color: #6C6C6C;
     text-align: left;
 }
 #LogoName a{
     text-decoration: none;
 }
 #LogoName a:visited{
-    color: black;
+    color: #6C6C6C;
 }
 
 /* 選單樣式設計 */
@@ -44,14 +44,14 @@ header{
 	list-style-type:none; /*li才不會有點點*/
 }
 #Menu li a{
-	color: black;
+	color: #6C6C6C;
 	text-decoration: none; /*超連結的底線不要顯示出來*/
 	font-size: 20px;
 	padding: 10px;
 	font-weight: bold;
 }
 #Menu li a:hover{ /*hover鼠標滑入 設超連結一定要記得用這個*/
-	color: #0274be; /*游標滑過之後字會變色*/
+	color: black; /*游標滑過之後字會變色*/
 	transition: 0.5s; /*漸變效果*/
 }
 
@@ -98,32 +98,13 @@ header{
 }
 
 
-/* 台客生活剪影 */
-.LifePictureBox{
-    width: 90%;
-    margin: 0 auto;   
-    display: flex;
-    align-items: center; 
-}
-.Slider{
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
-}
-.TKLifePicture{
-    width: 100%;
-}
-.TKLifePicture img{
-    width: 100%;  
-}
-
 /* 潛水種類區域  */
 #DivingWord{
-    margin: 50px 0;
+    padding: 50px 0;
 }
 .ScubaDivingTitle{
     text-align: center;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 .DivingIntroduceBox{
     width: 90%;
@@ -144,9 +125,87 @@ header{
 }
 
 
+/* 按鈕區塊 */
+.BtnContainer{
+    width: 90%;
+    display: flex;
+    margin: 0 auto; 
+}
+.LearnMoreBtn{
+	margin: 50px auto;
+	width: 80px;
+	display: block;	/*看到a先設這個讓他變成區塊元素*/
+	background: black;
+	color:#fff;
+	padding: 12px 50px;
+	border-radius: 40px; /*圓角*/
+	/* box-shadow: 5px 5px 17px #666; 陰影 第三個元素是陰影 */
+	font-weight: bold;
+    text-align: center;
+}
+.LearnMoreBtn a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* 交通資訊 */
+.TrafficInformation{
+    background: #f3f3f3;
+    padding: 50px 0;
+}
+.TrafficTitle{
+    text-align: center;
+    padding: 30px 0;
+}
+.TrafficInformation iframe{
+    width: 400px;
+    height: 300px;
+    border: 0;
+}
+.TKShopLocation{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: space-around;
+}
+
+.LocationText{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sLine2{
+	width: 150px;
+	height: 3px;
+	background-color: black;
+	margin: 10px auto; /*順序上右下左 只寫兩個第一個上下第二個左右*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
-    background: navy;
+    background: white;
     padding: 20px;
 }
 
@@ -157,7 +216,7 @@ footer{
     justify-content: space-evenly;
     font-size: 13px;
     padding: 30px 0;
-    margin: 0 auto;
+    margin: 0 auto;  
 }
 /* footer店家社群軟體 */
 .SocialSoftware{

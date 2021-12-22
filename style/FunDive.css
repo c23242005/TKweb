@@ -79,6 +79,9 @@ ul.drop-down-menu ul li:last-child {
 }
 
 
+
+
+
 /* 主頁的大圖主視覺背景 */
 .Main_Background_Image{
     background: url(../img/主視覺背景.jpg) center center no-repeat;
@@ -121,101 +124,76 @@ ul.drop-down-menu ul li:last-child {
     font-weight: bold;
 }
 
-/* 成員介紹 */
-.TKMember{
-    padding: 30px 0;
-}
-.MemberTitle{
-    text-align: center;
-    margin-bottom: 30px;
-}
-.MemberContainer{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px;
-}
-.Member{
-    width: 45%;
-    padding: 20px 0;
-    display: flex;
-}
-.MemberPicture{
-    width: 40%;
-    margin: 10px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.MemberPicture img{
-    height: 150px;
-    border-radius: 50%;
-}
-.MemberName{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-.MemberIntroduceText{
-    width: 60%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.MemberPictureContainer{
-    margin-bottom: 10px;
-}
 
 
-
-/* 環境介紹 */
-.Environment{
+/* OW課程內容 */
+.FunDiveContainer{
     background: #f3f3f3;
     padding: 50px 0;
 }
-.EnvironmentTitle{
+.FunDiveTitle{
     text-align: center;
 }
-.Container{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
+.FunDivePicture{
+    width: 60%;
+    margin: 20px auto;
 }
-.RightText{
-    width: 50%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.LeftPicture{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-.LeftPicture img{
-    width: 400px;
+.FunDivePicture img{
+    display: block;
+    width: auto;
+    max-width: 100%;
     margin: 0 auto;
 }
-.RightPicture{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-.RightPicture img{
-    width: 400px;
+
+.FunDiveContent{
+    width: 60%;
     margin: 0 auto;
 }
-.LeftText{
-    width: 50%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.FunDiveNote{
+    width: 100%;
+    text-align: start;
+    margin: 10px;
 }
+.FunDiveNote p{
+    line-height: 2em;
+}
+.FunDiveNote h2{
+    margin: 5px 0;
+}
+.FunDiveNote h3{
+    margin-bottom: 5px;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer設計 */

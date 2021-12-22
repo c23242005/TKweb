@@ -78,7 +78,6 @@ ul.drop-down-menu ul li:last-child {
     border-bottom: none;
 }
 
-
 /* 主頁的大圖主視覺背景 */
 .Main_Background_Image{
     background: url(../img/主視覺背景.jpg) center center no-repeat;
@@ -121,100 +120,41 @@ ul.drop-down-menu ul li:last-child {
     font-weight: bold;
 }
 
-/* 成員介紹 */
-.TKMember{
-    padding: 30px 0;
-}
-.MemberTitle{
-    text-align: center;
-    margin-bottom: 30px;
-}
-.MemberContainer{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px;
-}
-.Member{
-    width: 45%;
-    padding: 20px 0;
-    display: flex;
-}
-.MemberPicture{
-    width: 40%;
-    margin: 10px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.MemberPicture img{
-    height: 150px;
-    border-radius: 50%;
-}
-.MemberName{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-.MemberIntroduceText{
-    width: 60%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.MemberPictureContainer{
-    margin-bottom: 10px;
-}
-
-
-
-/* 環境介紹 */
-.Environment{
+/* 體驗潛水內容 */
+.DiscoverScubaDivingContainer{
     background: #f3f3f3;
     padding: 50px 0;
 }
-.EnvironmentTitle{
+.DiscoverScubaDivingTitle{
     text-align: center;
 }
-.Container{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
+.DiscoverScubaDivingPicture{
+    width: 60%;
+    margin: 20px auto;
 }
-.RightText{
-    width: 50%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.LeftPicture{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-.LeftPicture img{
-    width: 400px;
+.DiscoverScubaDivingPicture img{
+    display: block;
+    width: auto;
+    max-width: 100%;
     margin: 0 auto;
 }
-.RightPicture{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-.RightPicture img{
-    width: 400px;
+
+
+
+.DiscoverScubaDivingContent{
+    width: 54%;
     margin: 0 auto;
 }
-.LeftText{
-    width: 50%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.DiscoverScubaDivingNote{
+    width: 100%;
+    text-align: start;
+    margin: 10px;
+}
+.DiscoverScubaDivingNote p{
+    line-height: 2em;
+}
+.DiscoverScubaDivingNote h2{
+    margin: 5px 0;
 }
 
 

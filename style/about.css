@@ -166,6 +166,9 @@ ul.drop-down-menu ul li:last-child {
     flex-direction: column;
     justify-content: center;
 }
+.MemberIntroduceText p{
+    line-height: 2em;
+}
 .MemberPictureContainer{
     margin-bottom: 10px;
 }
@@ -192,6 +195,12 @@ ul.drop-down-menu ul li:last-child {
     flex-direction: column;
     justify-content: center;
 }
+.RightText p{
+    line-height: 2em;
+}
+.RightText h2{
+    margin-bottom: 5px;
+}
 .LeftPicture{
     width: 50%;
     display: flex;
@@ -217,6 +226,13 @@ ul.drop-down-menu ul li:last-child {
     flex-direction: column;
     justify-content: center;
 }
+.LeftText p{
+    line-height: 2em;
+}
+.LeftText h2{
+    margin-bottom: 5px;
+}
+
 
 
 /* Footer設計 */

@@ -140,7 +140,8 @@ ul.drop-down-menu ul li:last-child {
 .DivingIntroduceBox{
     width: 90%;
     display: flex;
-    margin: 0 auto;   
+    margin: 0 auto;  
+    justify-content: center; 
 }
 .TypesOfDiving{
     width: 33%;

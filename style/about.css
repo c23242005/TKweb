@@ -187,9 +187,10 @@ ul.drop-down-menu ul li:last-child {
     width: 90%;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
 }
 .RightText{
-    width: 50%;
+    width: 40%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -202,25 +203,23 @@ ul.drop-down-menu ul li:last-child {
     margin-bottom: 5px;
 }
 .LeftPicture{
-    width: 50%;
-    display: flex;
-    justify-content: center;
+    width: 40%;
 }
 .LeftPicture img{
+    display: block;
     width: 400px;
     margin: 0 auto;
 }
 .RightPicture{
-    width: 50%;
-    display: flex;
-    justify-content: center;
+    width: 40%;
 }
 .RightPicture img{
+    display: block;
     width: 400px;
     margin: 0 auto;
 }
 .LeftText{
-    width: 50%;
+    width: 40%;
     text-align: center;
     display: flex;
     flex-direction: column;

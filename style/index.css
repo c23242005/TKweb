@@ -148,6 +148,9 @@ ul.drop-down-menu ul li:last-child {
     color: black;
     text-align: center;
 }
+.SourseText{
+    height: 190px;
+}
 .sLine{
 	width: 150px;
 	height: 3px;

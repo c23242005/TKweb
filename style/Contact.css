@@ -89,6 +89,13 @@ ul.drop-down-menu ul li:last-child {
     display: flex;
     align-items: center;
 }
+.mask{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .5;
+}
 
 /* 介紹文字 */
 .ContactText{
@@ -132,7 +139,7 @@ ul.drop-down-menu ul li:last-child {
     padding-bottom: 30px;
 }
 .LocationContainer{
-    width: 60%;
+    width: 80%;
     display: flex;
     margin: 0 auto;
 }

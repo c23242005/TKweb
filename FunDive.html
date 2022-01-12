@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=1">
     <title>FUN DIVE</title>
     <link rel="stylesheet" href="./style/FunDive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,23 +14,26 @@
 <body>
     <header>
         <div class="Logo_and_Menu">
+            <!-- PC版 -->
             <div id="LogoName">
                 <a href="./index.html"><h1>台客潛水 TK.DIVING</h1></a>
             </div>    
-            <div id="Menu">
+
+            <!-- 漢堡選單 -->
+            <input type="CheckBox" name="Menu-Switcher" id="Menu-Switcher" />
+            <label for="Menu-Switcher" class="Hamburger">
+            <div class="Hamburger-Line"></div>
+            </label>
+
+            <!-- <div id="Menu"> -->
                 <ul class="drop-down-menu">
 					<li><a href="./about.html">關於台客</a></li>
-					<li>
-                        <a href="#">課程資訊</a>
-                        <ul>
-                            <li><a href="./DiscoverScubaDiving.html">體驗潛水</a></li>
-                            <li><a href="./OpenWaterSourse.html">開放水域潛水員課程</a></li>
-                            <li><a href="./FunDive.html">FUN DIVE</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="./DiscoverScubaDiving.html">體驗潛水</a></li>
+                    <li><a href="./OpenWaterSourse.html">開放水域潛水員課程</a></li>
+                    <li><a href="./FunDive.html">練功開心潛</a></li>
 					<li><a href="./Contact.html">聯絡我們</a></li>
 				</ul>
-            </div>        
+            <!-- </div>         -->
         </div>
     </header>
 
@@ -38,7 +41,7 @@
     <main>
         <div class="Main_Background_Image">
             <div class="mask"></div>
-            <div class="Container">
+            <div class="TextContainer">
                 <div class="IntroduceTKDiving">
                     <h1>FUN DIVE</h1>
                     <p>考完證照好久沒下水都快忘記怎麼潛了嗎？</p>

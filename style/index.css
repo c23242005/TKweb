@@ -199,6 +199,9 @@ ul.drop-down-menu ul li:last-child {
     .IntroduceTKDiving>h2{
         font-size: 16px;
     }
+    .CopyrightNotice{
+        text-align: center;
+    }
 }
 
 

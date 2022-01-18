@@ -219,7 +219,12 @@ ul.drop-down-menu ul li:last-child {
     .MemberIntroduceText{
         min-width: 90%;
     }
+    .CopyrightNotice{
+        text-align: center;
+    }
 }
+
+
 
 
 /* 主頁的大圖主視覺背景 */

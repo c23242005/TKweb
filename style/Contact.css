@@ -182,6 +182,9 @@ ul.drop-down-menu ul li:last-child {
     .TrafficInformation iframe{
         max-width: 100%;
     }
+    .CopyrightNotice{
+        text-align: center;
+    }
 }
 
 /* 主頁的大圖主視覺背景 */

@@ -177,6 +177,13 @@ ul.drop-down-menu ul li:last-child {
         min-width: 90%;
     }
 }
+/* RWD 576 */
+@media screen and (max-width:576px){
+    .CopyrightNotice{
+        text-align: center;
+    }
+}
+
 
 
 /* 主頁的大圖主視覺背景 */

@@ -24,7 +24,8 @@ header{
     color: #6C6C6C;
     text-align: left;
 }
-#LogoName a{
+#LogoName a:link{
+    color: #6C6C6C;
     text-decoration: none;
 }
 #LogoName a:visited{
